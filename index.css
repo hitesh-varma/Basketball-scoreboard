@@ -1,6 +1,8 @@
 body {
     margin: 0;
     background-color: #e5e5e5;
+    background-image: url("./court.jpg");
+    background-size: cover;
 }
 
 .container {
@@ -14,6 +16,7 @@ body {
   align-items: center;
   text-align: center;
   background: #161616;
+  border: 1px solid white;
 }
 
 h3{
@@ -52,6 +55,6 @@ button{
     padding: 5px;
     color:#F94F6D;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border:none;
+    border: 3px solid white;
     border-radius: 5px;
 }
